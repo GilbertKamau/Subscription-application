@@ -9,6 +9,10 @@ export const {PORT,
     JWT_SECRET,
     JWT_EXPIRES_IN,
     ARCJET_KEY,
-    ARCJET_ENV  } = process.env;
+    ARCJET_ENV,
+    QSTASH_TOKEN,
+    QSTASH_URL,
+    EMAIL_PASSWORD,
+    EMAIL_USER  } = process.env;
 
 // Default to development if NODE_ENV is not set
